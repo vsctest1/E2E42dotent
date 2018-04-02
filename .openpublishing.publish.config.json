@@ -1,49 +1,5 @@
 {
-  "docsets_to_publish": [
-    {
-      "docset_name": "E2E42dotent",
-      "build_source_folder": "E2E42dotent",
-      "build_output_subfolder": "E2E42dotent",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "base_path": "E2E42dotent",
-      "site_name": "Docs",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
-      "customized_tasks": {
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ],
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ]
-      },
-      "ECMA2Yaml": {
-        "SourceXmlFolder": "E2E42dotent/xml",
-        "OutputYamlFolder": "E2E42dotent/api",
-        "Flatten": true,
-        "id": "E2E42dotent"
-      },
-      "SplitTOC": [
-        "E2E42dotent/api/E2E42dotent/toc.yml"
-      ],
-      "DiffFolder": [
-        "E2E42dotent/api"
-      ]
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
