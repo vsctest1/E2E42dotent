@@ -31,16 +31,16 @@
         ]
       },
       "ECMA2Yaml": {
-        "SourceXmlFolder": "dotnet/xml",
-        "OutputYamlFolder": "dotnet/api",
+        "SourceXmlFolder": "E2E42dotent/xml",
+        "OutputYamlFolder": "E2E42dotent/api",
         "Flatten": true,
-        "id": "dotnet-template"
+        "id": "E2E42dotent"
       },
       "SplitTOC": [
-        "dotnet/api/dotnet-template/toc.yml"
+        "E2E42dotent/api/E2E42dotent/toc.yml"
       ],
       "DiffFolder": [
-        "dotnet/api"
+        "E2E42dotent/api"
       ]
     }
   ],
